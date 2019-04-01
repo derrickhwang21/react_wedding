@@ -1,38 +1,118 @@
 body {
-    background-color: #FFCC00;
-    padding: 20px;
+    background-color: white;
     margin: 0;
-  }
-  h1, h2, p, ul, li {
+}
+
+h1,
+h2,
+p,
+ul,
+li {
     font-family: sans-serif;
-  }
-  ul.header li {
-    display: inline;
+}
+
+.header, li{
+    height: 0px;
     list-style-type: none;
-    margin: 0;
-  }
-  ul.header {
-    background-color: #111;
-    padding: 0;
-  }
-  ul.header li a {
-    color: #FFF;
-    font-weight: bold;
+}
+
+
+ul a {
+    position: absolute;
+    display: normal;
+    left: -160px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 180px;
     text-decoration: none;
-    padding: 20px;
-    display: inline-block;
-  }
-  .active {
-    background-color: #0099FF;
-  }
-  .content {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+ul a:hover {
+    left: 0;
+}
+.home {
+    top:60px;
+    background-color: #4CAF50
+}
+
+.stuff {
+    top: 120px;
+    background-color: #2196F3;
+}
+
+.contact {
+    top: 180px;
+    background-color: #f44336;
+}
+
+.active {
+    background-color: #555;
+    left: 0;
+}
+
+.splash{
+    background-color: grey;
+    height: 70vh;
+    /* The image used */
+    background-image: url(../src/images/main-back.jpg);
+
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.splash h1, p{
+    margin-top: 0px;
+    color:white;
+    padding-left: 5vw;
+}
+
+.splashText{
+    padding-top:40vh;
+}
+
+.content {
     background-color: #FFF;
     padding: 20px;
-  }
-  .content h2 {
+}
+
+.content h2 {
     padding: 0;
     margin: 0;
-  }
-  .content li {
+}
+
+.content li {
     margin-bottom: 10px;
-  }
+}
+
+
+
+.homeTitle{
+    text-align: center;
+}
+
+.homeContent p{
+    color:black;
+}
+
+.homeContent{
+    display:flex;
+
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.homeBody{
+    width: 800px;
+}

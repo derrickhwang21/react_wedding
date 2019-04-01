@@ -1,20 +1,22 @@
 import React, { Component } from "react";
- 
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col'; 
+
 class Stuff extends Component {
   render() {
     return (
-      <div>
-        <h2>STUFF</h2>
-        <p>Mauris sem velit, vehicula eget sodales vitae,
-        rhoncus eget sapien:</p>
-        <ol>
-          <li>Nulla pulvinar diam</li>
-          <li>Facilisis bibendum</li>
-          <li>Vestibulum vulputate</li>
-          <li>Eget erat</li>
-          <li>Id porttitor</li>
-        </ol>
-      </div>
+      <Container>
+        <Row>
+          <Col sm={8}>sm=8</Col>
+          <Col sm={4}>sm=4</Col>
+        </Row>
+        <Row>
+          <Col sm>sm=true</Col>
+          <Col sm>sm=true</Col>
+          <Col sm>sm=true</Col>
+        </Row>
+      </Container>
     );
   }
 }
