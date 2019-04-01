@@ -13,6 +13,7 @@ li {
 
 .header, li{
     height: 0px;
+    list-style-type: none;
 }
 
 
@@ -34,17 +35,17 @@ ul a:hover {
     left: 0;
 }
 .home {
-    top:5vh;
+    top:60px;
     background-color: #4CAF50
 }
 
 .stuff {
-    top: 15vh;
+    top: 120px;
     background-color: #2196F3;
 }
 
 .contact {
-    top: 25vh;
+    top: 180px;
     background-color: #f44336;
 }
 
@@ -88,4 +89,30 @@ ul a:hover {
 
 .content li {
     margin-bottom: 10px;
+}
+
+
+
+.homeTitle{
+    text-align: center;
+}
+
+.homeContent p{
+    color:black;
+}
+
+.homeContent{
+    display:flex;
+
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.homeBody{
+    width: 800px;
 }
