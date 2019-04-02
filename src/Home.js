@@ -18,7 +18,7 @@ class Home extends Component {
             <Col sm={4}>
               <img width={300} src={homeImage} alt="Generic placeholder" />
             </Col>
-            <Col className="homeBody">
+            <Col className="homeBody" >
               <p>
                 Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
                 scelerisque ante sollicitudin commodo. Cras purus odio,

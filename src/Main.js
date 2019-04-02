@@ -16,15 +16,15 @@ class Main extends Component {
           
           <Jumbotron className="splash">
             <Container>
-            <Row className="splashText">
+            <div className="splashText">
             <h1>Hello, world!</h1>
-            </Row>
-            <Row>
+            </div>
+            <div>
             <p>
                 This is a simple hero unit, a simple jumbotron-style component for
                 calling extra attention to featured content or information.
                 </p>
-            </Row>
+            </div>
                 
                 
             </Container>      

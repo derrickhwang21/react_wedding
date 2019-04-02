@@ -18,21 +18,26 @@ li {
 
 
 ul a {
-    position: absolute;
+    position: fixed;
     display: normal;
-    left: -160px;
+    left: -10vw;
     transition: 0.3s;
     padding: 15px;
-    width: 180px;
+    width: 13vw;
     text-decoration: none;
-    text-align: center;
-    font-size: 20px;
+    text-align: left;
+    font-size: 1em;
     color: white;
     border-radius: 0 5px 5px 0;
 }
 
 ul a:hover {
     left: 0;
+    text-align: center;
+}
+
+.row{
+    margin: 4em 0;
 }
 .home {
     top:60px;
@@ -52,6 +57,7 @@ ul a:hover {
 .active {
     background-color: #555;
     left: 0;
+    text-align: center;
 }
 
 .splash{
@@ -116,3 +122,29 @@ ul a:hover {
 .homeBody{
     width: 800px;
 }
+
+
+
+table.GeneratedTable {
+  width: 100%;
+  background-color: #ffffff;
+  border-collapse: collapse;
+  border-width: 2px;
+  border-color: #ffcc00;
+  border-style: solid;
+  color: #000000;
+}
+
+table.GeneratedTable td, table.GeneratedTable th {
+  border-width: 2px;
+  border-color: #555;
+  border-style: solid;
+  padding: 3px;
+}
+
+table.GeneratedTable thead {
+  background-color: #555;
+  color: white;
+}
+
+
